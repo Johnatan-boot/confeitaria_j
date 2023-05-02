@@ -1,0 +1,1206 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Passions+Conflict&family=Poppins:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 1466px;
+  height: 768px;
+}
+
+
+.header{
+  width: 1520px;
+}
+.navbar {
+  border-radius: 8px;
+  width: 100%;
+  height: 56px;
+  background-color: #7e69ad;
+  border: 1px solid #7e69ad;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-toggler{
+  position: relative;
+  right: 1%;
+}
+nav .navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Calligraffitti", cursive;
+  position: relative;
+  left: 45%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+nav .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-nav{
+  margin-top: 5px;
+  position: relative;
+  z-index: 1;
+  right: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 105%;
+  height: 300px;
+  background-color: #7e69ad;
+
+}
+
+nav ul {
+  margin-top: 5px;
+  position: relative;
+  z-index: 1;
+  right: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background-color: #7e69ad;
+}
+nav .nav-link {
+  position: relative;
+  bottom: 90px;
+  font-family: "Calligraffitti", cursive;
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  text-decoration: none;
+}
+nav .nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+form {
+  width: 300px;
+  position: relative;
+  top: 80px;
+}
+form .form-control {
+  font-size: 0.9em;
+}
+form .btn {
+  font-size: 0.6em;
+}
+.container_btn {
+  position: relative;
+  left: 90px;
+  bottom: 50px;
+}
+
+.container .btn_log {
+  margin-right: 3px;
+  width: 40px;
+}
+.container .btn_cad {
+  position: relative;
+  top: 0px;
+  height: 40px;
+  font-size: 0.9em;
+  width: 40px;
+  margin-right: 3px;
+}
+.container .btn_cart {
+  width: 40px;
+  margin-right: 3px;
+}
+
+.header .btn {
+  color: #fff;
+  background-color: #9b85cc;
+}
+.header .btn_cad {
+  color: #fff;
+  background-color: #03fd4e;
+}
+
+/*MAIN*/
+
+.main {
+  position: relative;
+  bottom: 40px;
+  padding-top: 10px;
+}
+
+#carouselExampleCaptions{
+  width: 990px;
+}
+
+.carousel .slide img {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 100px;
+  width: 760px;
+}
+
+/*CARDS*/
+div .card {
+  background: rgb(126, 105, 173);
+  background: linear-gradient(
+    90deg,
+    rgba(126, 105, 173, 1) 0%,
+    rgba(178, 158, 224, 1) 35%,
+    rgba(219, 206, 249, 1) 100%
+  );
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  border: 2px solid #7e69ad;
+  position: relative;
+  left: 500px;
+  top: 5px;
+  height: 190px;
+  width: 760px;
+
+}
+
+
+
+.card img {
+  padding-bottom: 0px;
+  padding-top: 3px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 15px;
+  width: 295px;
+  height: 100px;
+}
+
+.card-title,
+.card-text {
+  color: #fff;
+  position: relative;
+  bottom: 15px;
+  padding-top: 0px;
+  font-size: 0.7em;
+}
+
+.card-text {
+  position: relative;
+  bottom: 25px;
+}
+
+.card .btn {
+  background: rgb(126, 105, 173);
+  border: 1px solid #7e69ad;
+  font-size: 0.5em;
+  position: relative;
+  bottom: 30px;
+  padding-top: 0px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .btn:hover {
+  background: rgb(126, 105, 173);
+  border: 1px solid #7e69ad;
+}
+.card .btn {
+  background: rgb(126, 105, 173);
+  border: 1px solid #7e69ad;
+  font-size: 0.5em;
+  position: relative;
+  bottom: 30px;
+  padding-top: 0px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*MAIN*/
+
+div .container_video{
+  width: 1465px;
+  height: 300px;
+}
+.container_video iframe{
+  width: 1485px;
+  height: 300px;
+}
+
+
+
+footer div {
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 75px;
+  width: 153%;
+  position: relative;
+  top: 0px;
+  background-color: #7e69ad;
+}
+
+.container h6 {
+  font-family: "Calligraffitti", cursive;
+ 
+
+  font-size: 0.7em;
+  position: relative;
+  top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.body {
+  background-color: #cfc0f1;
+}
+/*MOBILE DISPOSITIVOS 320 PX*/
+@media screen and (min-width: 320px) {
+  .body {
+    background-color: #cfc0f1;
+  }
+
+  .box {
+    width: 320px;
+    height: 556px;
+    /*    border: dotted 5px rgba(0, 0, 0, 0.7);
+*/
+  }
+
+  .navbar {
+    border-radius: 8px;
+    width: 100%;
+    height: 56px;
+    background-color: #7e69ad;
+    border: 1px solid #7e69ad;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  nav .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calligraffitti", cursive;
+    position: relative;
+    right: 0%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.5em;
+  }
+  nav .navbar-brand:hover {
+    color: #fff;
+  }
+
+  nav ul {
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    background-color: #7e69ad;
+  }
+  nav .nav-link {
+    font-family: "Calligraffitti", cursive;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    text-decoration: none;
+  }
+  nav .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*MAIN*/
+
+  .main {
+    padding-top: 10px;
+  }
+
+
+
+#carouselExampleCaptions img{
+  height: 100px; 
+
+}
+
+  .carousel .slide img {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 80px;
+  }
+
+  /*CARDS*/
+  div .card {
+    background: rgb(126, 105, 173);
+    background: linear-gradient(
+      90deg,
+      rgba(126, 105, 173, 1) 0%,
+      rgba(178, 158, 224, 1) 35%,
+      rgba(219, 206, 249, 1) 100%
+    );
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+    position: relative;
+    right: 0px;
+    top: 5px;
+    height: 180px;
+    width: 290px;
+  }
+  .card img {
+    padding-bottom: 0px;
+    padding-top: 3px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    width: 295px;
+    height: 80px;
+  }
+
+  .card-title,
+  .card-text {
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    padding-top: 0px;
+    font-size: 0.7em;
+  }
+
+  .card-text {
+    position: relative;
+    bottom: 25px;
+  }
+
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .btn:hover {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+  }
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container_video{
+    width: 290px;
+    height: 110px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+  }
+  /*MAIN*/
+
+  footer {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 75px;
+    position: relative;
+    right: 10px;
+    top: 4px;
+    width: 310px;
+    background-color: #7e69ad;
+  }
+
+  .container h6 {
+    font-family: "Calligraffitti", cursive;
+
+    font-size: 0.7em;
+    position: relative;
+    top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*MOBILE DISPOSITIVOS 768 PX*/
+@media screen and (min-width: 768px) {
+  .body {
+    background-color: #cfc0f1;
+  }
+
+  .box {
+    width: 768px;
+    height: 556px;
+  }
+
+  .navbar {
+    border-radius: 8px;
+    width: 100%;
+    height: 56px;
+    background-color: #7e69ad;
+    border: 1px solid #7e69ad;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  nav .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calligraffitti", cursive;
+    position: relative;
+    right: 0%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  nav .navbar-brand:hover {
+    color: #fff;
+  }
+
+  nav ul {
+    border-radius: 2px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+    right: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 755px;
+    background-color: #7e69ad;
+  }
+  nav .nav-link {
+    position: relative;
+    top: 1px;
+    font-family: "Calligraffitti", cursive;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    text-decoration: none;
+  }
+  nav .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  form {
+    width: 745px;
+    position: relative;
+    top: 70px;
+  }
+  form .form-control {
+    font-size: 0.9em;
+  }
+  form .btn {
+    font-size: 0.6em;
+  }
+
+  .container_btn {
+    position: relative;
+    left: 70%;
+  }
+
+  .container .btn_log {
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+    width: 40px;
+  }
+  .container .btn_cad {
+    position: relative;
+    top: 5px;
+    height: 38px;
+    font-size: 0.9em;
+    width: 40px;
+    margin-right: 3px;
+  }
+  .container .btn_cart {
+    position: relative;
+    top: 5px;
+    width: 40px;
+    margin-right: 3px;
+  }
+
+  /*MAIN*/
+
+  .main {
+    padding-top: 10px;
+  }
+
+  #carouselExampleCaptions img{
+    height: 265px; 
+  
+  }
+  .carousel .slide img {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 100px;
+  }
+
+  .carousel-item img {
+    height: 200px;
+  }
+
+  /*CARDS*/
+  div .card {
+    background: rgb(126, 105, 173);
+    background: linear-gradient(
+      90deg,
+      rgba(126, 105, 173, 1) 0%,
+      rgba(178, 158, 224, 1) 35%,
+      rgba(219, 206, 249, 1) 100%
+    );
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+    position: relative;
+    right: 0px;
+    top: 5px;
+    height: 260px;
+    width: 340px;
+  }
+  .card img {
+    padding-bottom: 0px;
+    padding-top: 3px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    width: 340px;
+    height: 100px;
+  }
+
+  .card-title,
+  .card-text {
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    padding-top: 0px;
+    font-size: 0.7em;
+  }
+
+  .card-text {
+    position: relative;
+    bottom: 25px;
+  }
+
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .btn:hover {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+  }
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*MAIN*/
+
+  .container_video{
+    width: 720px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+  }
+
+  footer {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 75px;
+    position: relative;
+    right: 15px;
+    top:10px;
+    width: 750px;
+    background-color: #7e69ad;
+  }
+
+  .container h6 {
+    font-family: "Calligraffitti", cursive;
+
+    font-size: 0.7em;
+    position: relative;
+    top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/*MOBILE DISPOSITIVOS Laptops 1024 PX*/
+@media screen and (min-width: 1024px) {
+  .body {
+    background-color: #cfc0f1;
+  }
+
+  .box {
+    width: 1024px;
+    height: 556px;
+  }
+
+  .navbar {
+    border-radius: 8px;
+    width: 100%;
+    height: 56px;
+    background-color: #7e69ad;
+    border: 1px solid #7e69ad;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  nav .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calligraffitti", cursive;
+    position: relative;
+    right: 0%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  nav .navbar-brand:hover {
+    color: #fff;
+  }
+
+  nav ul {
+    border-radius: 2px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+    right: 1.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1010px;
+    background-color: #7e69ad;
+  }
+  nav .nav-link {
+    position: relative;
+    top: 1px;
+    font-family: "Calligraffitti", cursive;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    text-decoration: none;
+  }
+  nav .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  form {
+    width: 1000px;
+    position: relative;
+    top: 70px;
+  }
+  form .form-control {
+    font-size: 0.9em;
+  }
+  form .btn {
+    font-size: 0.6em;
+  }
+
+  .container_btn {
+    position: relative;
+    left: 77%;
+  }
+
+  .container .btn_log {
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+    width: 40px;
+  }
+  .container .btn_cad {
+    position: relative;
+    top: 5px;
+    height: 38px;
+    font-size: 0.9em;
+    width: 40px;
+    margin-right: 3px;
+  }
+  .container .btn_cart {
+    position: relative;
+    top: 5px;
+    width: 40px;
+    margin-right: 3px;
+  }
+
+  /*MAIN*/
+
+  .main {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  #carouselExampleCaptions img{
+    height: 265px; 
+  
+  }
+  .carousel .slide img {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 100px;
+  }
+
+  .carousel-item img {
+    width: 512px;
+    height: 200px;
+  }
+
+  /*CARDS*/
+  div .card {
+    background: rgb(126, 105, 173);
+    background: linear-gradient(
+      90deg,
+      rgba(126, 105, 173, 1) 0%,
+      rgba(178, 158, 224, 1) 35%,
+      rgba(219, 206, 249, 1) 100%
+    );
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+    position: relative;
+    right: 0px;
+    top: 5px;
+    height: 260px;
+    width: 460px;
+  }
+  .card img {
+    padding-bottom: 0px;
+    padding-top: 3px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    width: 460px;
+    height: 100px;
+  }
+
+  .card-title,
+  .card-text {
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    padding-top: 0px;
+    font-size: 0.7em;
+  }
+
+  .card-text {
+    position: relative;
+    bottom: 25px;
+  }
+
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .btn:hover {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+  }
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*MAIN*/
+
+  .container_video{
+    width: 970px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+  }
+
+  footer {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 75px;
+    position: relative;
+    right: 10px;
+    top:10px;
+    width: 1010px;
+    background-color: #7e69ad;
+  }
+
+  .container h6 {
+    font-family: "Calligraffitti", cursive;
+
+    font-size: 0.7em;
+    position: relative;
+    top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/*Largura do ideapad s145 1366 x 768*/
+
+@media screen and(max-width:1366px) 
+{
+  .box {
+    width: 1366px;
+    height: 768px;
+  }
+  
+  .navbar {
+    border-radius: 8px;
+    width: 100%;
+    height: 56px;
+    background-color: #7e69ad;
+    border: 1px solid #7e69ad;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  nav .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calligraffitti", cursive;
+    position: relative;
+    right: 0%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.5em;
+  }
+  nav .navbar-brand:hover {
+    color: #fff;
+  }
+  
+  nav ul {
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 300px;
+    background-color: #7e69ad;
+  }
+  nav .nav-link {
+    position: relative;
+    bottom: 90px;
+    font-family: "Calligraffitti", cursive;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    color: #fff;
+    text-decoration: none;
+  }
+  nav .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  form {
+    width: 300px;
+    position: relative;
+    top: 80px;
+  }
+  form .form-control {
+    font-size: 0.9em;
+  }
+  form .btn {
+    font-size: 0.6em;
+  }
+  .container_btn {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+  }
+  
+  .container .btn_log {
+    margin-right: 3px;
+    width: 40px;
+  }
+  .container .btn_cad {
+    position: relative;
+    top: 0px;
+    height: 40px;
+    font-size: 0.9em;
+    width: 40px;
+    margin-right: 3px;
+  }
+  .container .btn_cart {
+    width: 40px;
+    margin-right: 3px;
+  }
+  
+  .header .btn {
+    color: #fff;
+    background-color: #9b85cc;
+  }
+  .header .btn_cad {
+    color: #fff;
+    background-color: #03fd4e;
+  }
+  
+  /*MAIN*/
+  
+  .main {
+    position: relative;
+    bottom: 40px;
+    padding-top: 10px;
+  }
+  
+  .carousel .slide img {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 100px;
+  }
+  
+  /*CARDS*/
+  div .card {
+    background: rgb(126, 105, 173);
+    background: linear-gradient(
+      90deg,
+      rgba(126, 105, 173, 1) 0%,
+      rgba(178, 158, 224, 1) 35%,
+      rgba(219, 206, 249, 1) 100%
+    );
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    border: 2px solid #7e69ad;
+    position: relative;
+    right: 0px;
+    top: 5px;
+    height: 190px;
+  }
+  .card img {
+    padding-bottom: 0px;
+    padding-top: 3px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    width: 295px;
+    height: 100px;
+  }
+  
+  .card-title,
+  .card-text {
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    padding-top: 0px;
+    font-size: 0.7em;
+  }
+  
+  .card-text {
+    position: relative;
+    bottom: 25px;
+  }
+  
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .btn:hover {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+  }
+  .card .btn {
+    background: rgb(126, 105, 173);
+    border: 1px solid #7e69ad;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 30px;
+    padding-top: 0px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*MAIN*/
+  
+  footer {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 75px;
+    position: relative;
+    top: 10px;
+    background-color: #7e69ad;
+  }
+  
+  .container h6 {
+    font-family: "Calligraffitti", cursive;
+  
+    font-size: 0.7em;
+    position: relative;
+    top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+
+

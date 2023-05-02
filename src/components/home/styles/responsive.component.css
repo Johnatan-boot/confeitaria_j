@@ -1,0 +1,10 @@
+footer{
+    border-radius: 8px;
+}
+
+footer a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 0px;
+}
